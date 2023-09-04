@@ -9,7 +9,6 @@ body {
   background-color: black;
 }
 
-/* Colors */
 header, .intro, footer {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, 
               url(https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg) no-repeat center center fixed;
@@ -73,6 +72,7 @@ a {
   text-decoration: none;
   color: #f9faf8;
 }
+
 a:hover {
   color: red;
 }
@@ -121,6 +121,7 @@ img {
 .content {
   flex-wrap: wrap;
   padding: 64px;
+  text-align: center;
 }
 
 .content h2{
